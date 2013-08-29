@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38A6CD9017CF565C006A475D /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A6CD8F17CF565C006A475D /* MapStoryboard.storyboard */; };
+		38A6CD9217CF5693006A475D /* CookingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A6CD9117CF5693006A475D /* CookingStoryboard.storyboard */; };
 		38D19A2317CF362400442704 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D19A2217CF362400442704 /* UIKit.framework */; };
 		38D19A2517CF362400442704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D19A2417CF362400442704 /* Foundation.framework */; };
 		38D19A2717CF362400442704 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D19A2617CF362400442704 /* CoreGraphics.framework */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38A6CD8F17CF565C006A475D /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
+		38A6CD9117CF5693006A475D /* CookingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CookingStoryboard.storyboard; sourceTree = "<group>"; };
 		38D19A1F17CF362400442704 /* osakana_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osakana_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D19A2217CF362400442704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38D19A2417CF362400442704 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +101,8 @@
 				38D19A3117CF362400442704 /* AppDelegate.h */,
 				38D19A3217CF362400442704 /* AppDelegate.m */,
 				38D19A3A17CF362400442704 /* MainStoryboard.storyboard */,
+				38A6CD8F17CF565C006A475D /* MapStoryboard.storyboard */,
+				38A6CD9117CF5693006A475D /* CookingStoryboard.storyboard */,
 				38D19A3D17CF362400442704 /* FirstViewController.h */,
 				38D19A3E17CF362400442704 /* FirstViewController.m */,
 				38D19A4017CF362400442704 /* first.png */,
@@ -184,6 +190,8 @@
 				38D19A4317CF362400442704 /* first@2x.png in Resources */,
 				38D19A4817CF362400442704 /* second.png in Resources */,
 				38D19A4A17CF362400442704 /* second@2x.png in Resources */,
+				38A6CD9017CF565C006A475D /* MapStoryboard.storyboard in Resources */,
+				38A6CD9217CF5693006A475D /* CookingStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +328,7 @@
 				38D19A4F17CF362400442704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
